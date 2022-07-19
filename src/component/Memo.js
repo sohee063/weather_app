@@ -15,7 +15,9 @@ const Memo = () => {
     <div>
       <form onSubmit={onSubmit}>
         <input onChange={onChange} type="text" />
-        <button type="submit">Add</button>
+        <button className="btn" type="submit">
+          Add
+        </button>
       </form>
       {memoList?.map((el) => (
         <>

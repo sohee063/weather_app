@@ -74,6 +74,7 @@ function App() {
             setCity={setCity}
             currentCity={currentCity}
           />
+          <Todo />
         </div>
       )}
     </div>

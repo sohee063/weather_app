@@ -33,7 +33,7 @@ const WeatherBox = ({ weather, setBackgroud, background }) => {
   return (
     <div className="weather-box">
       <h1 className="text">{weather?.name}</h1>
-      <h1 className="text">{weather?.main.temp} ℃</h1>
+      <h1 className="text">{weather?.main.temp.toFixed(1)} ℃</h1>
       <h4 className="text">{weather?.weather[0].description}</h4>
     </div>
   );
