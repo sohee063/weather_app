@@ -67,6 +67,13 @@
     rgba(0, 0, 0, 0.22) 0px 5px 12px;
 }
 
+.loading {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .weather-box {
   width: 100%;
   display: flex;
